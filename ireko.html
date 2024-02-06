@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>入れ子の練習</title>
+</head>
+<body>
+  <h1>入れ子の練習</h1>
+  <ul>
+    <li>
+      親のリストの項目
+      <ul>
+        <li>子のリストの項目</li>
+      </ul>
+    </li>
+  </ul>
+
+<p>ul>li*2>ul>li*3で、最後のli/liを消す</p>
+  <!--ul>li*2>ul>li*3-->
+  <ul>
+    <li>PC
+      <ul>
+        <li>Windows</li>
+        <li>Mac</li>
+        <li>Linux</li>
+      </ul>
+    </li>
+    <li>Phone
+      <ul>
+        <li>iOS</li>
+        <li>Android</li>
+        <!--<li></li>-->
+      </ul>
+    </li>
+  </ul>
+
+  <p>ul>li*2>ul>li*2</p>
+  <!--ul>li*2>ul>li*2-->
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+        <li></li>
+      </ul>
+    </li>
+    <li>
+      <ul>
+        <li></li>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+
+  <p>ul>li*1>ul>li*2</p>
+  <!--ul>li*1>ul>li*2-->
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</body>
+</html>
