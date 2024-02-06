@@ -3,18 +3,122 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTMLについて</title>
+  <title>HTML の練習</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 16px;
+      border: 1px solid #dfe2e5;
+    }
+
+    th {
+      font-weight: bold;
+      text-align: left;
+      border: 1px solid #dfe2e5;
+      padding: 6px 13px;
+    }
+
+    td {
+      border: 1px solid #dfe2e5;
+      padding: 6px 13px;
+    }
+  </style>
 </head>
 <body>
-  <h1>HTMLについて</h1>
-  <h3>様々な HTML タグ</h3>
+  <h1>HTML の練習</h1>
+  <h3>さまざまな HTML タグ</h3>
   <p>
-    HTML タグは、文章をマークアップすることで、文章に意味を与えることができます。
+    HTML タグは、文章をマークアップすることで、<br>文章に意味を与えることができます。
+    <a href="https://www.nnn.ed.nico/">N予備校のホームページ</a>
   </p>
   <p>
     p タグは、段落を表すので、 p タグごとに隙間が空いた改行になります。<br>
     この行と次の行は同じ段落に属しています。<br>
-    p タグによる段落の改行では、段落内の改行よりも大きな隙間が空いていますね。<br>
+    p タグによる段落の改行では、段落内の改行よりも大きな隙間が空いていますね。
   </p>
+
+<p>
+  以下がsrcが空のバージョンになります。
+</p>
+<img
+src=""
+alt="N予備校のロゴ"
+>
+<p>
+  以下がsrcにURLが割り当てられているバージョンになります。
+</p>
+
+<img
+  src="https://progedu.github.io/forum-ranking/assets/images/logo-n.svg"
+  alt="N予備校のロゴ"
+>
+<p>
+  以下が同じディレクトリに画像を置き、画像を表示させるバージョンになります。
+</p>
+<img src="./アスタリスくん.png" alt="アイコン" width="300">
+
+<p>以下が箇条書きの練習になります。</p>
+<!--'ul>li*6'と入力する。-->
+<ul>
+  <li>h tag</li>
+  <li>p tag</li>
+  <li>a tag</li>
+  <li>img tag</li>
+  <li>ul tag</li>
+  <li>table tag</li>
+</ul>
+
+<!--ul>oi*6-->
+<ul>
+  <ol>h tag</ol>
+  <ol>p tag</ol>
+  <ol>a tag</ol>
+  <ol>img tag</ol>
+  <ol>ul tag</ol>
+  <ol>table tag</ol>
+</ul>
+
+<!--ol>li-->
+<ol>
+  <li></li>
+</ol>
+
+<p>以下がEmmet Cheat Sheetになります。</p>
+<a href="https://docs.emmet.io/cheat-sheet/">Emmet Cheat Sheet</a> 
+
+<p>以下がtableの練習になります。</p>
+</ul>
+<table>
+  <tr>
+    <th>タグ名</th>
+    <th>意味</th>
+  </tr>
+  <tr>
+    <td>h</td>
+    <td>見出し</td>
+  </tr>
+  <tr>
+    <td>p</td>
+    <td>段落</td>
+  </tr>
+  <tr>
+    <td>a</td>
+    <td>リンク</td>
+  </tr>
+  <tr>
+    <td>img</td>
+    <td>画像</td>
+  </tr>
+  <tr>
+    <td>ul</td>
+    <td>順序なしリスト</td>
+  </tr>
+  <tr>
+    <td>table</td>
+    <td>表</td>
+  </tr>
+</table>
 </body>
-</html>
+
+</body>
